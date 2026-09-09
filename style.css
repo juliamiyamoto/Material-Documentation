@@ -112,14 +112,11 @@ section h2 {
 
 /* Makes ALL assignment photos the same size */
 .post img {
-    width: 250px;
-    height: 300px;
-
-    /* Crops the image instead of stretching it */
-    object-fit: cover;
-
-    border-radius: 6px;
-    margin-top: 10px;
+     width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    object-fit: contain;
 }
 
 /* --------------------------------
